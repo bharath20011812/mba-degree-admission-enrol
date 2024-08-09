@@ -97,15 +97,14 @@ section.header-sec {
 
 .banner-left h2 {
     font-weight: 500;
-    font-size: 25px;
-    margin-top: 20px;
+    font-size: 30px;
 }
 
 .mainsec1 {
     background-image: url(../image/banneer-lft.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: 8rem;
+    margin-top: 6rem;
     background-color: #01458E;
 }
 
@@ -129,14 +128,8 @@ section.header-sec {
 .banner-form h3 {
     text-align: center;
     color: #fff;
-    font-size: 24px;
-}
-
-.banner-form p {
-    text-align: center;
-    color: #fff;
-    margin: 10px 0 30px;
     font-size: 25px;
+    margin-bottom: 30px;
 }
 
 .banner-form {
@@ -160,6 +153,57 @@ section.header-sec {
     text-transform: uppercase;
 }
 
+.banner-subcont h4 {
+    font-size: 22px;
+    width: 35%;
+    color: #fff;
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    border-left: 0.5px;
+    border-right: 0.9px;
+    font-weight: 400;
+}
+
+.banner-subcont .avil-100 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.banner-subcont .schlor-h4 {
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.banner-main .banner-offer p {
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.banner-main .banner-offer p span {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.banner-main .banner-offer p i {
+    background: #F84F0D;
+    padding: 5px;
+    border-radius: 36px;
+}
+
+.banner-main .banner-offer {
+    margin: 30px 0 0;
+}
+
+.banner-main ul li::marker {
+    display: none;
+}
 
 .banner-left h1 .mab-h1 {
     font-size: 55px;
@@ -167,17 +211,7 @@ section.header-sec {
     font-weight: 600;
     letter-spacing: normal;
 }
-
-.banner-subcont {
-    padding: 20px;
-    width: 55%;
-    background: #FEF4E3;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.banner-subcont h3 {
-    color: #F84F0D;
+.nirf-img p {
     font-size: 28px;
 }
 
@@ -537,7 +571,6 @@ section.footer-sec .footer-main.row {
 }
 
 .book-constmain h3.text-center {
-    text-align: center !important;
     margin: auto;
     font-size: 25px;
 }
@@ -628,11 +661,7 @@ section.thank-pag.py-5 {
     .service_item {
         height: 550px;
     }
-    .banner-form h3 {
-        text-align: center;
-        color: #fff;
-        font-size: 20px;
-    }
+
     .count-outer h4 {
         font-weight: 500;
         margin-top: 20px;
@@ -643,11 +672,6 @@ section.thank-pag.py-5 {
     .count-outer h2#test {
         font-size: 30px;
     }
-    
-    .banner-subcont h3,
-    .banner-left h2 {
-        font-size: 22px;
-    }
 
 }
 
@@ -657,6 +681,11 @@ section.thank-pag.py-5 {
         display: flex;
         justify-content: center;
         padding: 50px 0;
+    }
+
+    .banner-subcont h4 {
+        font-size: 22px;
+        width: 45%;
     }
 
     .nirf-img p {
@@ -685,7 +714,7 @@ section.thank-pag.py-5 {
     }
 
     .banner-form h3 {
-        font-size: 23px;
+        font-size: 25px;
     }
 
     .accred-inr {
@@ -791,6 +820,7 @@ section.thank-pag.py-5 {
         background-size: 60%;
         background-image: url(../image/mobile-banner.png);
         background-position: right top;
+        margin-top: 6rem;
     }
 
     .accred-inr {
@@ -875,11 +905,6 @@ section.thank-pag.py-5 {
         padding: 0;
     }
 
-    .banner-subcont {
-        width: 100%;
-        transform: translate(0px, 45%);
-    }
-
     button.book-counslt {
         bottom: 0;
         top: auto;
@@ -928,13 +953,13 @@ section.thank-pag.py-5 {
         width: 100%;
     }
 
+    .banner-subcont h4 {
+        width: 65%;
+    }
+
     .banner-form {
         width: 100%;
-        margin-top: 60px;
-    }   
-    .banner-subcont h3,
-    .banner-left h2 {
-        font-size: 18px;
+        margin-top: 0px;
     }
 }
 
@@ -943,11 +968,24 @@ section.thank-pag.py-5 {
         font-size: 2rem;
         text-align: center;
     }
+
+    .banner-left h2 {
+        font-size: 23px;
+    }
     
 
-    .banner-left h1 ,.banner-left h1 .mab-h1 {
+    .banner-subcont h4 {
+        padding: 10px 12px;
+        font-size: 25px;
+    }
+    .banner-subcont .avil-100{
+        font-size: 30px;
+    }
+
+    .banner-left h1 .mab-h1 ,.banner-left h1{
         font-size: 40px;
     }
+
     .count-outer {
         margin-bottom: 30px;
         width: 100%;
@@ -985,17 +1023,11 @@ section.thank-pag.py-5 {
     .accred-main img {
         margin-right: 0px;
     }
-    
-    .banner-left h1 {
+    .banner-left h1 .mab-h1 ,.banner-left h1{
         font-size: 30px;
-    } 
-
-    .banner-left h1 .mab-h1 {
-        font-size: 30px;
-        color: #F84F0D;
-        font-weight: 600;
-        letter-spacing: normal;
     }
-    
+    .banner-subcont h4 {
+        font-size: 20px;
+    }
 
 }
