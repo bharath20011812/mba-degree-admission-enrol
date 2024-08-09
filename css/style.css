@@ -79,9 +79,6 @@ section {
 .header-sec img {
     width: 45%;
 }
-.header-sec .jamal-logo{
-    width: 60%;
-}
 
 .header-logo {
     width: 50%;
@@ -100,7 +97,7 @@ section.header-sec {
 
 .banner-left h2 {
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 20px;
 }
 
@@ -108,7 +105,7 @@ section.header-sec {
     background-image: url(../image/banneer-lft.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: 6rem;
+    margin-top: 8rem;
     background-color: #01458E;
 }
 
@@ -132,7 +129,7 @@ section.header-sec {
 .banner-form h3 {
     text-align: center;
     color: #fff;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .banner-form p {
@@ -181,6 +178,7 @@ section.header-sec {
 
 .banner-subcont h3 {
     color: #F84F0D;
+    font-size: 28px;
 }
 
 /* Accreditations Start */
@@ -541,6 +539,7 @@ section.footer-sec .footer-main.row {
 .book-constmain h3.text-center {
     text-align: center !important;
     margin: auto;
+    font-size: 25px;
 }
 
 .book-constmain .modal-header {
@@ -629,7 +628,11 @@ section.thank-pag.py-5 {
     .service_item {
         height: 550px;
     }
-
+    .banner-form h3 {
+        text-align: center;
+        color: #fff;
+        font-size: 20px;
+    }
     .count-outer h4 {
         font-weight: 500;
         margin-top: 20px;
@@ -640,6 +643,11 @@ section.thank-pag.py-5 {
     .count-outer h2#test {
         font-size: 30px;
     }
+    
+    .banner-subcont h3,
+    .banner-left h2 {
+        font-size: 22px;
+    }
 
 }
 
@@ -649,11 +657,6 @@ section.thank-pag.py-5 {
         display: flex;
         justify-content: center;
         padding: 50px 0;
-    }
-
-    .banner-subcont h3,
-    .banner-left h2 {
-        font-size: 23px;
     }
 
     .nirf-img p {
@@ -682,7 +685,7 @@ section.thank-pag.py-5 {
     }
 
     .banner-form h3 {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .accred-inr {
@@ -819,9 +822,6 @@ section.thank-pag.py-5 {
         gap: 40px;
     }
 
-    .mainsec1 {
-        background-size: 75% 60%;
-    }
 
     .admision-lft,
     .admission-ryt {
@@ -877,7 +877,7 @@ section.thank-pag.py-5 {
 
     .banner-subcont {
         width: 100%;
-        transform: translate(0px, 55%);
+        transform: translate(0px, 45%);
     }
 
     button.book-counslt {
@@ -932,6 +932,10 @@ section.thank-pag.py-5 {
         width: 100%;
         margin-top: 60px;
     }   
+    .banner-subcont h3,
+    .banner-left h2 {
+        font-size: 18px;
+    }
 }
 
 @media screen and (max-width: 500px) {
@@ -940,6 +944,9 @@ section.thank-pag.py-5 {
         text-align: center;
     }
 
+    .mainsec1 {
+        background-size: 75% 45%;
+    }
 
     .banner-left h1 .mab-h1 {
         font-size: 40px;
