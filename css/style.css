@@ -945,16 +945,13 @@ section.thank-pag.py-5 {
     }
 
     .mainsec1 {
-        background-size: 75% 45%;
+        background-size: 50%;
     }
+    
 
-    .banner-left h1 .mab-h1 {
+    .banner-left h1 ,.banner-left h1 .mab-h1 {
         font-size: 40px;
-        color: #F84F0D;
-        font-weight: 600;
-        letter-spacing: normal;
     }
-
     .count-outer {
         margin-bottom: 30px;
         width: 100%;
@@ -994,7 +991,15 @@ section.thank-pag.py-5 {
     }
     
     .banner-left h1 {
-        font-size: 32px;
+        font-size: 30px;
     } 
+
+    .banner-left h1 .mab-h1 {
+        font-size: 30px;
+        color: #F84F0D;
+        font-weight: 600;
+        letter-spacing: normal;
+    }
+    
 
 }
