@@ -8,7 +8,7 @@
 	<title>Agni School of Business Excellence, Dindugal - MBA Admissions 2024-2025 | Managed by Jamal Mohamed College,
 		Trichy</title>
 	<meta name="description"
-		content="oin Agni School of Business Excellence, managed by Jamal Mohamed College, Trichy, for MBA Admissions 2024-2025. Explore our top-ranked MBA program, cutting-edge curriculum, and state-of-the-art facilities. Apply now!" />
+		content="Agni School of Business Excellence, managed by Jamal Mohamed College, Trichy, for MBA Admissions 2024-2025. Explore our top-ranked MBA program, cutting-edge curriculum, and state-of-the-art facilities. Apply now!" />
 
 	<meta property="og:image" content="https://agniasbex.ac.in/mba-degree-admission-2024-25/image/logo.png" />
 	<meta property="og:description"
@@ -39,12 +39,34 @@
 		fbq('track', 'PageView');
 	</script>
 	<!-- End Facebook Pixel Code -->
+	<!-- new - 12-08-24 Facebook Pixel Code -->
+	<script>
+		!function (f, b, e, v, n, t, s) {
+			if (f.fbq) return; n = f.fbq = function () {
+				n.callMethod ?
+				n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+			};
+			if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+			n.queue = []; t = b.createElement(e); t.async = !0;
+			t.src = v; s = b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t, s)
+		}(window, document, 'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+		fbq('init', '1052577766581329');
+		fbq('track', 'PageView');
+	</script>
+	<!-- End Facebook Pixel Code -->
 </head>
 
 <body>
 	<!-- End Facebook Pixel Code -->
 	<noscript>
 		<img height="1" width="1" src="https://www.facebook.com/tr?id=491998623422806&ev=PageView
+		&noscript=1" />
+	</noscript>
+	<!-- new 12-08-24 -->
+	<noscript>
+		<img height="1" width="1" src="https://www.facebook.com/tr?id=1052577766581329&ev=PageView
 		&noscript=1" />
 	</noscript>
 	<!-- End Facebook Pixel Code -->
@@ -55,7 +77,7 @@
 					<img src="./image/logo.png" alt="logo">
 				</div>
 				<div class="header-logo">
-					<img class="jamal-logo" src="./image/jamal-logo.png" alt="logo">
+					<img src="./image/jamal-logo.png" alt="logo">
 				</div>
 	</section>
 	<!-- secrion 2 -->
@@ -66,12 +88,20 @@
 				<div class="banner-left col-lg-8">
 					<h1>MBA <br><span class="mab-h1">Admission</span><br><span class="master-h1">2024 Open</span></h1>
 					<div class="banner-subcont">
-						<h3>Enrol for MBA Scholarship Test to Avail 100% Scholarship on Tuition Fee</h3>
-						<h2>Limited Time Offer. Apply Before 20 Aug 2024!</h2>
+						<h4>avail upto <span class="avil-100">100%<span class="schlor-h4">scholarship</span></span> on
+							tuition fees</h4>
+					</div>
+					<div class="banner-offer">
+						<p><i class="fa-solid fa-check"></i><span>AICTE Approved</span></p>
+						<p><i class="fa-solid fa-check"></i><span>Affiliation with Anna University</span></p>
+						<p><i class="fa-solid fa-check"></i><span>Education loan Assistance</span></p>
+						<p><i class="fa-solid fa-check"></i><span>Scholarship Available</span></p>
+						<p><i class="fa-solid fa-check"></i><span>100% internship Placement</span></p>
+						<p><i class="fa-solid fa-check"></i><span>100% job Placement Assistance</span></p>
 					</div>
 				</div>
 				<div class="banner-form popup-select col-lg-4">
-					<h3 class="mb-3">Avail Upto 100% Scholarship on Tuition Fee</h3>
+					<h3>Avail Upto 100% Scholarship on Tuition Fee </h3>
 					<form action="./lp-mailer.php" method="post">
 						<div class="row">
 							<div class="form-group col-12">
@@ -107,21 +137,35 @@
 							</div>
 							<div class="form-group col-12">
 								<span class="wpcf7-form-control-wrap" data-name="course">
-									<select required  name="course">
+									<select required name="course">
 										<option value='' disabled selected>Select…
 										<option value="MBA in Business Analytics">MBA in Business Analytics
 										<option value="MBA in Finance">MBA in Finance
 										<option value="MBA in Operation">MBA in Operation
 										<option value="MBA in Human Resources">MBA in Human Resources
 										<option value="MBA in Marketing">MBA in Marketing
-									  </select>
+									</select>
 								</span>
 							</div>
- 							
+
 							<div class="form-group mb-3">
 								<textarea class="form-control" placeholder="Message" name="message"
-									id="exampleFormControlTextarea1" rows="2"  required></textarea>
+									id="exampleFormControlTextarea1" rows="2" required></textarea>
 							</div>
+							
+							<!--  -->
+							<div class="cacha-new mb-3 d-flex align-items-center">
+								<canvas id="captcha" height="65"></canvas>
+								<button type="button" class="btn btn-secondary" id="refresh-captcha">
+									<i class="fa fa-refresh"></i>
+								</button>
+							</div>
+
+							<div class="mb-3 form-group col-12">
+								<input type="text" class="form-control" id="captcha-input" placeholder="Enter Captcha"
+									required>
+							</div>
+							<!--  -->
 							<div class="from-btn ">
 								<button type="submit" class="vs-btn style7">Submit</button>
 							</div>
@@ -522,7 +566,7 @@
 		<div class="modal-dialog  modal-dialog-centered">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h3 class="text-center">Avail Upto 100% Scholarship on Tuition Fee</h3>
+					<h3 class="text-center">Avail Upto 100% Scholarship on Tuition Fee </h3>
 					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body popup-select">
@@ -561,21 +605,35 @@
 							</div>
 							<div class="form-group col-12">
 								<span class="wpcf7-form-control-wrap" data-name="course">
-									<select required  name="course">
+									<select required name="course">
 										<option value='' disabled selected>Select…
 										<option value="MBA in Business Analytics">MBA in Business Analytics
 										<option value="MBA in Finance">MBA in Finance
 										<option value="MBA in Operation">MBA in Operation
 										<option value="MBA in Human Resources">MBA in Human Resources
 										<option value="MBA in Marketing">MBA in Marketing
-									  </select>
+									</select>
 								</span>
 							</div>
- 							
+
 							<div class="form-group mb-3">
 								<textarea class="form-control" placeholder="Message" name="message"
-									id="exampleFormControlTextarea1" rows="2"  required></textarea>
+									id="exampleFormControlTextarea1" rows="2" required></textarea>
 							</div>
+							
+							<!--  -->
+							<div class="form-group col-12 cacha-new mb-3 d-flex align-items-center">
+								<canvas id="captcha-new" height="50"></canvas>
+								<button type="button" class="btn btn-secondary" id="refresh-captcha-new">
+									<i class="fa fa-refresh"></i>
+								</button>
+							</div>
+
+							<div class="mb-3 form-group col-12">
+								<input type="text" class="form-control" id="captcha-input-new" placeholder="Enter Captcha"
+									required>
+							</div>
+							<!--  -->
 							<div class="from-btn ">
 								<button type="submit" class="vs-btn style7">Submit</button>
 							</div>
