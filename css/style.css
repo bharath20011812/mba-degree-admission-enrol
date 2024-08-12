@@ -97,15 +97,14 @@ section.header-sec {
 
 .banner-left h2 {
     font-weight: 500;
-    font-size: 25px;
-    margin-top: 20px;
+    font-size: 30px;
 }
 
 .mainsec1 {
     background-image: url(../image/banneer-lft.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    margin-top: 8rem;
+    margin-top: 6.7rem;
     background-color: #01458E;
     position: relative;
 }
@@ -132,14 +131,8 @@ section.header-sec {
 .banner-form h3 {
     text-align: center;
     color: #fff;
-    font-size: 24px;
-}
-
-.banner-form p {
-    text-align: center;
-    color: #fff;
-    margin: 10px 0 30px;
     font-size: 25px;
+    margin-bottom: 30px;
 }
 
 .banner-form {
@@ -163,6 +156,57 @@ section.header-sec {
     text-transform: uppercase;
 }
 
+.banner-subcont h4 {
+    font-size: 22px;
+    width: 35%;
+    color: #fff;
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 30px;
+    border: 1px solid;
+    border-radius: 15px;
+    border-left: 0.5px;
+    border-right: 0.9px;
+    font-weight: 400;
+}
+
+.banner-subcont .avil-100 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.banner-subcont .schlor-h4 {
+    font-weight: 400;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.banner-main .banner-offer p {
+    color: #fff;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.banner-main .banner-offer p span {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.banner-main .banner-offer p i {
+    background: #F84F0D;
+    padding: 5px;
+    border-radius: 36px;
+}
+
+.banner-main .banner-offer {
+    margin: 30px 0 0;
+}
+
+.banner-main ul li::marker {
+    display: none;
+}
 
 .banner-left h1 .mab-h1 {
     font-size: 55px;
@@ -170,17 +214,7 @@ section.header-sec {
     font-weight: 600;
     letter-spacing: normal;
 }
-
-.banner-subcont {
-    padding: 20px;
-    width: 55%;
-    background: #FEF4E3;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.banner-subcont h3 {
-    color: #F84F0D;
+.nirf-img p {
     font-size: 28px;
 }
 
@@ -520,6 +554,34 @@ section.footer-sec .footer-main.row {
     border-radius: 0;
     border: 1px solid;
 }
+.cacha-new canvas#captcha {
+    background: #fff;
+    border-radius: 8px;
+}
+.cacha-new canvas#captcha ,#captcha-new{
+    background: #fff;
+    border-radius: 8px;
+    width: 80%;
+    padding: 0 15px;
+}
+.cacha-new {
+    gap: 10px;
+}
+#captcha-new{
+    border: 1px solid;
+    border-radius:0;
+}
+.cacha-new button {
+    width: 15% !important;
+    padding: 10px !important;
+}
+.cacha-new button:hover ,.cacha-new button:active{
+    background: #F84F0D;
+}
+.modal-dialog textarea {
+    border-radius: 0;
+    border: 1px solid;
+}
 
 .modal-dialog button {
     border-radius: 0 !important;
@@ -540,7 +602,6 @@ section.footer-sec .footer-main.row {
 }
 
 .book-constmain h3.text-center {
-    text-align: center !important;
     margin: auto;
     font-size: 25px;
 }
@@ -631,11 +692,7 @@ section.thank-pag.py-5 {
     .service_item {
         height: 550px;
     }
-    .banner-form h3 {
-        text-align: center;
-        color: #fff;
-        font-size: 20px;
-    }
+
     .count-outer h4 {
         font-weight: 500;
         margin-top: 20px;
@@ -646,10 +703,11 @@ section.thank-pag.py-5 {
     .count-outer h2#test {
         font-size: 30px;
     }
-    
-    .banner-subcont h3,
-    .banner-left h2 {
-        font-size: 22px;
+    .banner-form {
+        width: 28%;
+    }
+    .banner-form h3{
+        font-size: 23px;
     }
 
 }
@@ -660,6 +718,11 @@ section.thank-pag.py-5 {
         display: flex;
         justify-content: center;
         padding: 50px 0;
+    }
+
+    .banner-subcont h4 {
+        font-size: 22px;
+        width: 45%;
     }
 
     .nirf-img p {
@@ -688,7 +751,7 @@ section.thank-pag.py-5 {
     }
 
     .banner-form h3 {
-        font-size: 23px;
+        font-size: 25px;
     }
 
     .accred-inr {
@@ -771,8 +834,7 @@ section.thank-pag.py-5 {
     }
 
     .banner-form {
-        width: 60%;
-        margin-top: 60px;
+        width: 80%;
     }
 
     .banner-main {
@@ -782,32 +844,31 @@ section.thank-pag.py-5 {
 
     .banner-left.col-lg-8 {
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         padding: 0;
     }
 
     .mab-special .mba-courses {
         width: 48%;
     }
-
+   
     .mainsec1 {
         background-image: none;
-        padding: 20px 0;
-        margin-top: 6rem;
+        padding: 30px 0;
     }
     .mainsec1::before {
-        background-image: url(../image/mobile-banner.png);
-        content: '';
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0%;
-        right: 0%;
-        background-repeat: no-repeat;
-        background-position: top right;
-        background-size: 45%;
-    }
+            background-image: url(../image/mobile-banner.jpg);
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0%;
+            right: 0%;
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size:45%;
 
+    }
     .accred-inr {
         width: 47%;
         border: 0;
@@ -886,13 +947,7 @@ section.thank-pag.py-5 {
 
     .banner-left.col-lg-8 {
         width: 100%;
-        margin-bottom: 80px;
         padding: 0;
-    }
-
-    .banner-subcont {
-        width: 100%;
-        transform: translate(0px, 45%);
     }
 
     button.book-counslt {
@@ -943,14 +998,15 @@ section.thank-pag.py-5 {
         width: 100%;
     }
 
+    .banner-subcont h4 {
+        width: 65%;
+    }
+
     .banner-form {
         width: 100%;
-        margin-top: 60px;
-    }   
-    .banner-subcont h3,
-    .banner-left h2 {
-        font-size: 18px;
-    }
+        margin-top: 0px;
+    } 
+
 }
 
 @media screen and (max-width: 500px) {
@@ -958,11 +1014,24 @@ section.thank-pag.py-5 {
         font-size: 2rem;
         text-align: center;
     }
+
+    .banner-left h2 {
+        font-size: 23px;
+    }
     
 
-    .banner-left h1 ,.banner-left h1 .mab-h1 {
-        font-size: 40px;
+    .banner-subcont h4 {
+        padding: 10px 12px;
+        font-size: 25px;
     }
+    .banner-subcont .avil-100{
+        font-size: 30px;
+    }
+
+    .banner-left h1 .mab-h1 ,.banner-left h1{
+        font-size: 35px;
+    }
+
     .count-outer {
         margin-bottom: 30px;
         width: 100%;
@@ -992,7 +1061,10 @@ section.thank-pag.py-5 {
         color: #fff;
         margin-bottom: 30px;
     }
-
+    .mainsec1::before {
+        background-size: 50%;
+        
+    }
 
 }
 
@@ -1000,17 +1072,17 @@ section.thank-pag.py-5 {
     .accred-main img {
         margin-right: 0px;
     }
-    
-    .banner-left h1 {
+    .banner-left h1 .mab-h1 ,.banner-left h1{
         font-size: 30px;
-    } 
-
-    .banner-left h1 .mab-h1 {
-        font-size: 30px;
-        color: #F84F0D;
-        font-weight: 600;
-        letter-spacing: normal;
     }
-    
-
+    .banner-subcont h4 {
+        font-size: 20px;
+    }
+    .banner-main .banner-offer p span {
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .banner-main .banner-offer p {
+        margin-left: 12px;
+    }
 }
